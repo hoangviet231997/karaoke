@@ -1,0 +1,64 @@
+.art-detail {
+  font-family: "Product_Sans";
+  color: #040404;
+}
+
+.z-depth-5 {
+  -webkit-box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
+    0 40px 77px 0 rgba(0, 0, 0, 0.22) !important;
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
+    0 40px 77px 0 rgba(0, 0, 0, 0.22) !important;
+}
+
+body {
+    background-image: url(/image/childpage-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-color{
+    color: #ffcc00;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.bg-black {
+    background: black;
+}
+
+.box-black {
+    background: #040404;
+    padding: 40px 0;
+    margin-bottom: 60px;
+    height: 352px;
+    position: relative;
+    z-index: 10;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    color: white;
+    background-color: black;
+}
